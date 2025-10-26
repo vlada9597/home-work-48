@@ -1,18 +1,42 @@
-# React + Vite
+# 🌀 Tailwind CSS + React (Vite) - Home-work-48
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Опис
+Цей проєкт створений для демонстрації інтеграції **Tailwind CSS** у React-додаток, створений за допомогою **Vite**.  
+Виконано в межах ДЗ 48.1: *"Інтеграція бібліотек стилів у React проєкт."*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Встановлення та запуск
 
-## React Compiler
+### 1. Клонування репозиторію
+git clone https://github.com/your-username/my-react-app.git
+cd my-react-app
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+2. Встановлення залежностей
+npm install
 
-Note: This will impact Vite dev & build performances.
+4. Запуск проєкту
+npm run dev
 
-## Expanding the ESLint configuration
+Після запуску відкрийте у браузері:
+👉 http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Використані технології
+* React 18
+* Vite
+* Tailwind CSS
+* PostCSS
+* Autoprefixer
+
+🧱 Структура компонентів
+
+Header — шапка сайту з назвою
+Form — форма для введення даних
+Card — інформаційні картки
+
+🚀 Деплоймент
+Додаток можна розгорнути на:
+
+Netlify
+
+🔗 Посилання : https://home-work-48.netlify.app/
